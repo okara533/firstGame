@@ -64,7 +64,7 @@ function clickDiv(clicked,counter){
             cardDiv[clicked].classList.remove("clickedCorrect");
         }, "50");
         progressDivsThumb[counter].innerHTML='<i class="em em---1" aria-role="presentation" aria-label="THUMBS UP SIGN"></i>'
-        progressDivsThumb[counter].classList.add(colorPalet[clicked])
+        progressDivsThumb[counter].classList.add(colorPalet[correctColor])
     }else{
         cardDiv[clicked].classList.add("clickedWrong");
         gameStart=true;
@@ -74,7 +74,7 @@ function clickDiv(clicked,counter){
         }, "50");
         gameTitle.innerHTML="Kaybettin Tekrar Başlamak için Bir Tuşa Bas!"
         progressDivsThumb[counter].innerHTML='<i class="em em-no_entry" aria-role="presentation" aria-label="NO ENTRY"></i>'
-        progressDivsThumb[counter].classList.add(colorPalet[clicked])
+        progressDivsThumb[counter].classList.add(colorPalet[correctColor])
     }
     
 }
