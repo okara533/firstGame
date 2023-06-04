@@ -37,4 +37,13 @@ body{
     background-color:purple;
 }
 
+.clicked{
+    background-color: beige;
+    box-shadow:rgba(255, 255, 255, 0.703) -10px -10px 30px,
+    rgba(255, 255, 255, 0.703) -10px 10px 30px,
+    rgba(255, 255, 255, 0.703) 10px -10px 30px,
+    rgba(255, 255, 255, 0.703) 10px 10px 30px;
+}
+
+
 
